@@ -7,13 +7,13 @@ compiler:
 
 before_install:
   - pip install --user cpp-coveralls
-
+  
 install:
-  - if [ "" = "g++" ]; then export CXX="g++-8" CC="gcc-8"; fi
+  - export CXX="g++-8" CC="gcc-8"
   - mkdir build
   - cd build
   - cmake ..
-  - make
+  - cmake --build -v
 
 script:
   - ctest -V

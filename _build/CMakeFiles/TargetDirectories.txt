@@ -1,0 +1,4 @@
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/_build/CMakeFiles/rebuild_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/_build/CMakeFiles/edit_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/_build/CMakeFiles/test_json.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/_build/CMakeFiles/test.dir

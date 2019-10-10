@@ -1,2 +1,3 @@
 all:
-   g++ main.cpp
+	g++ json.cpp -o hello
+
