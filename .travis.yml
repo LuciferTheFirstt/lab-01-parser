@@ -10,10 +10,8 @@ before_install:
   
 install:
   - export CXX="g++-8" CC="gcc-8"
-  - mkdir build
-  - cd build
-  - cmake ..
-  - cmake --build ..
+  - cmake .
+  - cmake --build ./
 
 script:
   - ctest -V
