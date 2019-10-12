@@ -1,7 +1,7 @@
 // Copyright 2019 Dmitry Sviridkin dmitry.sviridkin@yandex.ru
 
 #include <iostream>
-#include <nlohmann/json.hpp>
+#include <../nlohmann/json.hpp>
 
 using json = nlohmann::json;
 

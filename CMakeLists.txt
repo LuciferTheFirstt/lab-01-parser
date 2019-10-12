@@ -9,11 +9,18 @@ else()
     add_definitions(-std=c++17)
 endif()
 
-include_directories(include)
+include_directories(json_lib)
 
 enable_testing()
 
 add_executable(test_json main.cpp)
 
 add_test(NAME ${PROJECT_NAME} COMMAND test_json)
+
+add_library(json STATIC json_lib/json.cpp)
+
+add_executable(main sources/json.cpp)
+
+target_link_libraries(main json)
+
 

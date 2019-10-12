@@ -1,6 +1,8 @@
 #include <iostream>
 #include "json.h"
 
+using namespace std;
+
 int main(){
 
     const char * const json_data = R"({

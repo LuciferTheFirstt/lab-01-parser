@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main.dir/sources/json.cpp.o  -o main libjson.a 

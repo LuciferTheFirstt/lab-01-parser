@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/main.cpp
+iostream
+-
+json.h
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/json.h
+
+json_lib/json.h
+string
+-
+vector
+-
+any
+-
+

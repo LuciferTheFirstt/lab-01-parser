@@ -1,25 +1,8 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <map>
-#include <any>
+#include <json.h>
 
 using namespace std;
 
-class Json
-{
-private:
-    vector<any> keys;
-    vector<any> values;
-    vector<any> array;
-
-public:
-    Json(const std::string& s);
-    bool is_array() const;
-    bool is_object() const;
-    std::any& operator[](const std::string& key);
-    std::any& operator[](int index);
-    static Json parse(const std::string& s)
+Json Json::parse(const std::string& s)
     {
         int i = 0;
         string str = "\0";
@@ -32,9 +15,6 @@ public:
         Json cur(str);
         return cur;
     };
-
-    static Json parseFile(const std::string& path_to_file);
-};
 
 Json::Json(const std::string& s)
 {
