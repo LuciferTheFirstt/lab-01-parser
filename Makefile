@@ -147,6 +147,19 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named test_json
+
+# Build rule for target.
+test_json: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_json
+.PHONY : test_json
+
+# fast build rule for target.
+test_json/fast:
+	$(MAKE) -f CMakeFiles/test_json.dir/build.make CMakeFiles/test_json.dir/build
+.PHONY : test_json/fast
+
 json_lib/json.o: json_lib/json.cpp.o
 
 .PHONY : json_lib/json.o
@@ -173,6 +186,33 @@ json_lib/json.s: json_lib/json.cpp.s
 json_lib/json.cpp.s:
 	$(MAKE) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/json_lib/json.cpp.s
 .PHONY : json_lib/json.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_json.dir/build.make CMakeFiles/test_json.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_json.dir/build.make CMakeFiles/test_json.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_json.dir/build.make CMakeFiles/test_json.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 sources/json.o: sources/json.cpp.o
 
@@ -212,9 +252,13 @@ help:
 	@echo "... json"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... test_json"
 	@echo "... json_lib/json.o"
 	@echo "... json_lib/json.i"
 	@echo "... json_lib/json.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... sources/json.o"
 	@echo "... sources/json.i"
 	@echo "... sources/json.s"

@@ -90,6 +90,7 @@ test_json_EXTERNAL_OBJECTS =
 
 test_json: CMakeFiles/test_json.dir/main.cpp.o
 test_json: CMakeFiles/test_json.dir/build.make
+test_json: libjson.a
 test_json: CMakeFiles/test_json.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab01/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_json"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_json.dir/link.txt --verbose=$(VERBOSE)
