@@ -1,7 +1,7 @@
 // Copyright 2019 Sviridkin Dmitry dmitry.sviridkin@yandex.ru
 #include <gtest/gtest.h>
-//#include "../include/json.hpp"
-#include "../include/my_json.hpp"
+//#include "../json_lib/json.hpp"
+#include "../json_lib/my_json.hpp"
 
 namespace {
 
