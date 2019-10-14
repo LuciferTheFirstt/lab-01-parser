@@ -1,4 +1,4 @@
-// Copyright 2019 Sviridkin Dmitry dimonator67@gmail.com
+// Copyright 2018 Alex Chubukov alexchubukov12345@gmail.com
 
 #include <gtest/gtest.h>
 #include <nlohmann/json.hpp>

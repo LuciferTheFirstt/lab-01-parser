@@ -1,4 +1,4 @@
-// Copyright 2019 Sviridkin Dmitry dmitry.sviridkin@yandex.ru
+// Copyright 2018 Alex Chubukov alexchubukov12345@gmail.com
 
 #ifndef  INCLUDE_MY_JSON_HPP_
 #define INCLUDE_MY_JSON_HPP_
