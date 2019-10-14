@@ -21,8 +21,10 @@ target_link_libraries(test_json json)
 
 add_test(NAME ${PROJECT_NAME} COMMAND test_json)
 
+project(CN CXX)
+
 add_executable(main sources/json.cpp)
 
 target_link_libraries(main json)
 
-
+add_test(NAME ${PROJECT_NAME} COMMAND main)
