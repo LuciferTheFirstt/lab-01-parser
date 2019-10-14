@@ -1,7 +1,4 @@
 # Задание 1
-
-[![Build Status](https://travis-ci.org/LuciferTheFirstt/lab-01-parser.svg?branch=master)](https://travis-ci.org/LuciferTheFirstt/lab-01-parser)
-
 Реализовать парсер данных в формате JSON.
 
 JSON-текст представляет собой в закодированном виде одну из двух структур:
